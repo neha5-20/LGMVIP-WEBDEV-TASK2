@@ -1,0 +1,110 @@
+.getUser{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 228, 225, 0.438);
+    flex-direction: column;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items:center;
+    height: 65%;
+    width: 100%;
+    row-gap: 35px;
+    padding: 120px 90px;
+
+}
+
+.card{
+    height: 370px;
+    margin: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(100, 148, 237, 0.527);
+    border-radius: 20px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar{
+    width:100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#b1e0e7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 9% 9% 65% 65% / 20%; 
+    border-bottom: 5px solid #f0f8ff;
+}
+
+.a-img{
+    width: 40%;
+    height: 100%;
+    border-radius: 100%;
+    border: 5px solid #ffffffff;
+    object-fit: cover;
+    margin-top: 70px;
+    transition: all 500ms linear;
+}
+
+.a-img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(14, 37, 56);
+}
+
+.name{
+    font-size:17px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s linear;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.icons i{
+    padding-right: 10px;
+}
+
+.fa-instagram:hover{
+    color: rgb(161, 12, 87);
+}
+
+.fa-facebook:hover{
+    color:rgb(20, 0, 130);
+}
+
+.fa-twitter:hover{
+    color: #0d4ba8;
+}
+
+.fa-linkedin:hover{
+    color:#0e76a8;
+}
